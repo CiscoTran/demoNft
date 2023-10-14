@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Button } from "react-bootstrap";
+import Createnft from "./createnft.js";
 
 const App = () => {
   const connectWallet = async () => {
@@ -33,7 +34,10 @@ const App = () => {
         </Button>
       </Navbar>
 
-      <main>Day la phan than</main>
+      <main>
+        Day la phan than
+        <Createnft />
+      </main>
     </div>
   );
 };
