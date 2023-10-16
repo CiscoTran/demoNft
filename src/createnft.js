@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import { NFTService } from "./service/nft.service";
 
 export default function CreateNFT() {
+  //useState
   const [name, setName] = useState("");
   const [symbol, setSymbol] = useState("");
   const [file, setFile] = useState(null);
-
   const [createdNFT, setCreateNFT] = useState("");
 
+  //create new NFT using createdNFT in nft.s
   const handleCreate = () => {
     const newNFT = { name, symbol, file };
     NFTService.CreateNFT(newNFT);
