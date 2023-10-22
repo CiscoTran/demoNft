@@ -1,1 +1,1 @@
-# MINI NFT PROJECT USING SOLANA AND REACTJS
+# Mni NFT creation project using Shyft API and ReactJS
